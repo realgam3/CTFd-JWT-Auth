@@ -1,6 +1,5 @@
 import os
 import jwt
-import onetimepass
 
 CTFD_HOST="realgam3.ctf.today"
 JWT_PUBLIC_KEY_PATH = os.getenv("JWT_PUBLIC_KEY_PATH", "public.pem")
